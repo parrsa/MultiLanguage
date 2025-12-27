@@ -2,5 +2,10 @@
   "HomePage": {
     "title": "Hello world",
     "contact": "Go to contact page"
+  },
+  "products": {
+    "title": "Products",
+    "description": "This is our product list",
+    "contact": "Contact us for more information"
   }
 }

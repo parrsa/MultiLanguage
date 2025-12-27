@@ -11,7 +11,13 @@ export const routing = defineRouting({
             fa: "/contact",
             en: "/contact-me",
             ku: "/peywandi",
-            de: "kontakt"
+            de: "/kontakt"
+        },
+        '/products': {
+            fa: '/products',
+            en: '/products',
+            ku: '/berhem',
+            de: '/produkte'
         }
     }
 });

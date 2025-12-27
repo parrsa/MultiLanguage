@@ -6,6 +6,11 @@
         },
         "contact": "Zur Kontaktseite"
     },
+    "products": {
+        "title": "Produkte",
+        "description": "Dies ist unsere Produktliste",
+        "contact": "Kontaktieren Sie uns für weitere Informationen"
+    },
     "contactForm": {
         "name": "Name",
         "email": "E-Mail",
