@@ -41,7 +41,6 @@ src/
 └── next.config.ts
 ⚙️ Setup & Installation
 bash
-Copy code
 npm install
 # or
 yarn install
@@ -50,7 +49,6 @@ pnpm install
 Run the development server:
 
 bash
-Copy code
 npm run dev
 Open:
 
@@ -64,24 +62,20 @@ http://localhost:3000/ku
 Locales and pathnames are defined in:
 
 ts
-Copy code
 src/i18n/routing.ts
 Example:
 
 ts
-Copy code
 locales: ["fa", "en", "ku"];
 defaultLocale: "fa";
 📝 Translations
 Translation messages are stored in:
 
 txt
-Copy code
 src/messages/{locale}.json
 Example:
 
 json
-Copy code
 {
   "HomePage": {
     "title": "Hello world",
@@ -91,17 +85,14 @@ Copy code
 Usage in components:
 
 ts
-Copy code
 const t = await getTranslations("HomePage");
 t("title");
 🧩 Middleware
 Locale detection and routing is handled by:
 
 ts
-Copy code
 src/middleware.ts
 ts
-Copy code
 matcher: ["/", "/(fa|en|ku)/:path*"];
 🔤 Fonts
 Local fonts are loaded using next/font/local:
